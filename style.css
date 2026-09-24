@@ -2782,3 +2782,33 @@ body {
     }
 
 }
+/* =========================================
+   MOBILE PUPILS FIX
+========================================= */
+
+@media (max-width: 800px) {
+
+    .mascot-wrapper {
+        position: relative;
+        overflow: visible;
+    }
+
+    .eye {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        z-index: 50 !important;
+    }
+
+    .eye-left {
+        width: 19% !important;
+        left: 33.4% !important;
+        top: 18.3% !important;
+    }
+
+    .eye-right {
+        width: 23.3% !important;
+        left: 41.8% !important;
+        top: 16.6% !important;
+    }
+}
