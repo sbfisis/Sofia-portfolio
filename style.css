@@ -2783,7 +2783,7 @@ body {
 
 }
 /* =========================================
-   MOBILE PUPILS FIX
+   MOBILE PUPILS POSITION
 ========================================= */
 
 @media (max-width: 800px) {
@@ -2800,15 +2800,20 @@ body {
         z-index: 50 !important;
     }
 
+    /* LEFT — DESKTOP UNCHANGED */
+
     .eye-left {
         width: 19% !important;
         left: 33.4% !important;
-        top: 18.3% !important;
+        top: 30.5% !important;
     }
+
+    /* RIGHT — DESKTOP UNCHANGED */
 
     .eye-right {
         width: 23.3% !important;
         left: 41.8% !important;
-        top: 16.6% !important;
+        top: 30.5% !important;
     }
+
 }
