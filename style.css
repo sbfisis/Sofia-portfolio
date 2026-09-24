@@ -4,14 +4,14 @@
 
 @font-face {
     font-family: "Arimo";
-    src: url("fonts/arimo1.ttf") format("truetype");
+    src: url("arimo1.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Waffle Soft";
-    src: url("fonts/madewafflesoft.ttf") format("truetype");
+    src: url("madewafflesoft.ttf") format("truetype");
     font-weight: 800;
     font-style: normal;
 }
